@@ -22,3 +22,14 @@ Route::get('/login', function () {
     // return view('welcome');
     return view('login');
 })->name('login');
+
+Route::get('/detailklinik', function () {
+    // return view('welcome');
+    return view('detail_klinik');
+})->name('detailklinik');
+
+
+Route::get('/perjanjian', function () {
+    // return view('welcome');
+    return view('perjanjian'); 
+})->name('perjanjian');
